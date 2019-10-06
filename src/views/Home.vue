@@ -1,8 +1,12 @@
-<template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+<template lang="pug">
+.home
+	img(alt='Vue logo', src='../../public/img/icons/hammer-sickle.svg' width="200px")
+	h1 Bom Dia, Meia-Noite
+	h2 Good Morning, Midnight
+	h3 Bootstrap-Vue a Thing of Duty
+	.d-flex.mt-3
+		b-button.mr-2(size='lg') Imprint
+		b-button(large variant='dark' size='lg') Offprint
 </template>
 
 <script>
@@ -10,9 +14,20 @@
 import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
-  name: 'home',
-  components: {
-    HelloWorld
-  }
+	name: 'home',
+	components: {
+		HelloWorld
+	}
 }
 </script>
+
+<style>
+.home {
+	height: calc(100vh - 80px);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+</style>
