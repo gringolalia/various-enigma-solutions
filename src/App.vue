@@ -8,32 +8,50 @@
 
 			b-navbar-toggle(target='nav-collapse')
 
-			b-collapse#nav-collapse(is-nav='')
+			b-collapse#nav-collapse(is-nav)
 				b-navbar-nav
-					b-nav-item(href='#') In Principio
+					b-nav-item-dropdown(text='Sabedoria')
+						b-dropdown-item(href='empirical') Empiricism
 
-					b-nav-item(href='#') Handicapped
+						b-dropdown-item(href='existential') Existentialism
+
+						b-dropdown-item(href='hegelian') Hegelianism
+
+						b-dropdown-item(href='idealist') Idealism
+
+						b-dropdown-item(href='kantian') Kantianism
+
+						b-dropdown-item(href='marxist') Marxism
+
+						b-dropdown-item(href='phenomenology') Phenomenology
+						
+						b-dropdown-item(href='positivism') Positivism
+
+						b-dropdown-item(href='pragmaticism') Pragmaticism
+
+						b-dropdown-item(href='rationalist') Rationalism
+
+						b-dropdown-item(href='realist') Realism
 
 				b-navbar-nav.ml-auto
-					b-nav-form
-						b-form-input.mr-sm-2(size='sm', placeholder='Search')
 
-						b-button.my-2.my-sm-0(size='sm', type='submit') Search
+					b-nav-item-dropdown.ml-2(right)
 
-						<!-- <b-nav-item-dropdown text="Lang" right>
-						<b-dropdown-item href="#">EN</b-dropdown-item>
-						<b-dropdown-item href="#">ES</b-dropdown-item>
-						<b-dropdown-item href="#">RU</b-dropdown-item>
-						<b-dropdown-item href="#">FA</b-dropdown-item>
-						</b-nav-item-dropdown> -->
+						template(v-slot:button-content) Sobre Você
 
-					b-nav-item-dropdown(right)
+						b-dropdown-item(href='#') Sobre Nós
 
-						template(v-slot:button-content) Netocracy
+						b-dropdown-item(href='#') Perfil
 
-						b-dropdown-item(href='#') Profile
+						b-dropdown-item(href='#') Contorno
 
-						b-dropdown-item(href='#') Sign Out
+						b-dropdown-item(href='#') Silhueta
+						b-dropdown-item(href='#') Delineamento
+						b-dropdown-item(href='#') Feição
+						b-dropdown-item(href='#') Índole
+						b-dropdown-item(href='#') Jeito
+						b-dropdown-item(href='#') Caráter
+
 
 	router-view
 </template>

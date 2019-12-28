@@ -8,46 +8,49 @@
     <title>Vulcan Elder Strapped For Cash</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=News+Cycle">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
 
-		<link type="text/css" rel="stylesheet" href="//unpkg.com/bootstrap/dist/css/bootstrap.min.css" />
-		<link type="text/css" rel="stylesheet" href="//unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.min.css" />
+	<!-- CDN Fallback -->
 
-		<script src="//polyfill.io/v3/polyfill.min.js?features=es2015%2CIntersectionObserver" crossorigin="anonymous"></script>
+	<!-- <link type="text/css" rel="stylesheet" href="//unpkg.com/bootstrap/dist/css/bootstrap.min.css" />
+	<link type="text/css" rel="stylesheet" href="//unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.min.css" /> -->
+	
+	<!-- Load polyfills to support older browsers -->
+	<!-- <script src="//polyfill.io/v3/polyfill.min.js?features=es2015%2CIntersectionObserver" crossorigin="anonymous"></script> -->
+	
+	<!-- Load Vue followed by BootstrapVue -->
+	<!-- <script src="//unpkg.com/vue@latest/dist/vue.min.js"></script>
+	<script src="//unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.min.js"></script> -->
 
-		<!-- Load Vue followed by BootstrapVue -->
-		<script src="//unpkg.com/vue@latest/dist/vue.min.js"></script>
-		<script src="//unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.min.js"></script>
+	<style>
+		body, html {
+			font-family: 'News Cycle', sans-serif !important;
+			height: 100%;
+			font-weight: 300 !important;
+		}
 
-		<style>
-		    body, html {
-		      font-family: 'News Cycle', sans-serif !important;
-		      height: 100%;
-		      font-weight: 300 !important;
-		    }
+		h1, h2, h3, h4, h5, h6 {
+			font-family: 'News Cycle' ,sans-serif;
+			font-weight: 300 !important;
+		}
 
-		    h1, h2, h3, h4, h5, h6 {
-		      font-family: 'News Cycle' ,sans-serif;
-		      font-weight: 300 !important;
-		    }
+		.dignity {
+			font-family: "News Cycle", sans-serif;
+			font-weight: 300 !important;
+		}
 
-		    .dignity {
-		      font-family: "News Cycle", sans-serif;
-		      font-weight: 300 !important;
-		    }
+		i, .material-icons {
+			vertical-align: middle;
+		}
 
-		    i, .material-icons, .fa, .fab, .far, .fas {
-		      vertical-align: middle;
-		    }
-
-		</style>
+		.dropdown-toggle::after {
+			display: none;
+		}
+	</style>
 
 
   </head>
   <body>
-    <noscript>
-      <strong>We're sorry but vulcan-enigmastrap doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
   </body>
