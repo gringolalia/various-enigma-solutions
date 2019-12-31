@@ -5,8 +5,9 @@
 	h2 Good Morning, Midnight
 	h3 Bootstrap-Vue a Thing of Duty
 	.d-flex.mt-3
-		b-button.mr-2(size='lg') Imprint
-		b-button(large variant='dark' size='lg') Offprint
+		b-button.mr-2(size='lg' variant="warning") Imprint
+		b-button.mr-2(large variant='dark' size='lg') Offprint
+		b-button.mr-2(size='lg' variant="secondary") Fingerprint
 </template>
 
 <script>

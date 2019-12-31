@@ -10,7 +10,16 @@
 
 			b-collapse#nav-collapse(is-nav)
 				b-navbar-nav
-					b-nav-item-dropdown(text='Sabedoria')
+
+
+
+
+					b-nav-item-dropdown(text='Sabedoria' no-caret)
+
+						template(v-slot:button-content) 
+							i.material-icons.mr-2 keyboard_arrow_down
+							| Scholasticisms au Gogo
+
 						b-dropdown-item(href='empirical') Empiricism
 
 						b-dropdown-item(href='existential') Existentialism
@@ -35,29 +44,33 @@
 
 				b-navbar-nav.ml-auto
 
-					b-nav-item-dropdown.ml-2(right)
+					b-nav-item-dropdown.ml-2(right no-caret)
 
-						template(v-slot:button-content) Sobre Você
-
+						template(v-slot:button-content) 
+							i.material-icons.mr-2 keyboard_arrow_down
+							| Informações
 						b-dropdown-item(href='#') Sobre Nós
 
-						b-dropdown-item(href='#') Perfil
+						b-dropdown-item(href='#') Nosso Perfil
 
-						b-dropdown-item(href='#') Contorno
+						b-dropdown-item(href='#') Nosso Contorno
 
-						b-dropdown-item(href='#') Silhueta
-						b-dropdown-item(href='#') Delineamento
-						b-dropdown-item(href='#') Feição
-						b-dropdown-item(href='#') Índole
-						b-dropdown-item(href='#') Jeito
-						b-dropdown-item(href='#') Caráter
+						b-dropdown-item(href='#') Nossa Silhueta
+						b-dropdown-item(href='#') Um Delineamento
+						b-dropdown-item(href='#') Uma Feição
+						b-dropdown-item(href='#') Índole Nosso
+						b-dropdown-item(href='#') Nosso Jeito
+						b-dropdown-item(href='#') Nosso Caráter
 
 
 	router-view
 </template>
 
 <style>
-	body, html {
+
+@import 'assets/scss/bespoke.css';
+
+body, html {
 		font-family: 'News Cycle', sans-serif !important;
 		height: 100%;
 		font-weight: 300 !important;
