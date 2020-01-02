@@ -11,22 +11,27 @@
 			b-collapse#nav-collapse(is-nav)
 				b-navbar-nav
 
-
-
-
-					b-nav-item-dropdown(text='Sabedoria' no-caret)
+					b-nav-item-dropdown.active(text='Sabedoria' no-caret)
 
 						template(v-slot:button-content) 
 							i.material-icons.mr-2 keyboard_arrow_down
 							| Scholasticisms au Gogo
 
-						b-dropdown-item(href='empirical') Empiricism
+						b-dropdown-item(href='empirical')
+							i.fas.fa-balance-scale.fa-lg.mr-2
+							| Empiricism
 
-						b-dropdown-item(href='existential') Existentialism
+						b-dropdown-item(href='existential') 
+							i.material-icons.md-24.mr-2 waves
+							| Existentialism
 
-						b-dropdown-item(href='hegelian') Hegelianism
+						b-dropdown-item(href='hegelian') 
+							i.fas.fa-chess-board.fa-lg.mr-2
+							| Hegelian Nonsense
 
-						b-dropdown-item(href='idealist') Idealism
+						b-dropdown-item(href='idealist')
+							i.fas.fa-sun.fa-lg.mr-2
+							|  Idealism
 
 						b-dropdown-item(href='kantian') Kantianism
 
@@ -44,7 +49,7 @@
 
 				b-navbar-nav.ml-auto
 
-					b-nav-item-dropdown.ml-2(right no-caret)
+					b-nav-item-dropdown.d-none.d-md-block.ml-2(right no-caret)
 
 						template(v-slot:button-content) 
 							i.material-icons.mr-2 keyboard_arrow_down
@@ -88,6 +93,11 @@ body, html {
 
 	i, .material-icons, .fa, .fab, .far, .fas {
 		vertical-align: middle;
+	}
+
+	a:hover {
+		text-decoration: none;
+		border: none;
 	}
 
 </style>
