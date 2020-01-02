@@ -1,15 +1,27 @@
-  import Vue from 'vue'
+import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
-
+import Adivinha from './views/Adivinha.vue'
+import Alegoria from './views/Alegoria.vue'
 Vue.use(Router)
 
 export default new Router({
+  mode: 'history',
   routes: [
     {
       path: '/',
       name: 'home',
       component: Home
+    },
+    {
+      path: 'adivinha',
+      name: 'Adivinha',
+      component: Adivinha
+    },
+    {
+      path: '/alegoria',
+      name: 'alegoria',
+      component: Alegoria
     },
     {
       path: '/about',
