@@ -1,9 +1,9 @@
 <template lang="pug">
 .home
 	img(alt='Vue logo', src='../../public/img/icons/hammer-sickle.svg' width="200px")
-	h1 Bom Dia, Meia-Noite
-	h2 Good Morning, Midnight
-	h3 Bootstrap-Vue a Thing of Duty
+	h1 Alegoria
+	h2 Sinónimos Pro Charada
+	h3 Inimigo de Batman
 	.d-flex.mt-3
 		b-button.mr-2(size='lg') Imprint
 		b-button(large variant='dark' size='lg') Offprint

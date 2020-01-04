@@ -1,8 +1,8 @@
 <template lang="pug">
 .home
 	img(alt='Vue logo', src='../../public/img/icons/hammer-sickle.svg' width="200px")
-	h1 Bom Dia, Meia-Noite
-	h2 Good Morning, Midnight
+	h1 Adivinha O Quê
+	h2 Mistérios ao Gogo
 	h3 Bootstrap-Vue a Thing of Duty
 	.d-flex.mt-3
 		b-button.mr-2(size='lg') Imprint

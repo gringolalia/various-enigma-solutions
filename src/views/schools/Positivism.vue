@@ -1,9 +1,9 @@
 <template lang="pug">
 .home
-	img(alt='Vue logo', src='../../public/img/icons/hammer-sickle.svg' width="200px")
-	h1 Bom Dia, Meia-Noite
-	h2 Good Morning, Midnight
-	h3 Bootstrap-Vue a Thing of Duty
+	img(alt='Vue logo', src='../../../public/img/icons/hammer-sickle.svg' width="200px")
+	h1 Are You Positivist?
+	h2 Tyranny of the Sense Datum
+	h3 Whereof We Cannot Speak Meaningfully
 	.d-flex.mt-3
 		b-button.mr-2(size='lg') Imprint
 		b-button(large variant='dark' size='lg') Offprint

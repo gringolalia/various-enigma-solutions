@@ -1,9 +1,9 @@
 <template lang="pug">
 .home
 	img(alt='Vue logo', src='../../../public/img/icons/hammer-sickle.svg' width="200px")
-	h1 Karlo the Marx Brother
-	h2 Hectic Material Dialectic
-	h3 Religion: Crystal Meth of the Masses
+	h1 Pragmatic Praxis
+	h2 Four Incapacities
+	h3 What Is Worse Than Peirce?
 	.d-flex.mt-3
 		b-button.mr-2(size='lg') Imprint
 		b-button(large variant='dark' size='lg') Offprint
