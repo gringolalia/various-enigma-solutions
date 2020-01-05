@@ -2,7 +2,7 @@
 .home
 	img(alt='Vue logo', src='../../../public/img/icons/hammer-sickle.svg' width="200px")
 	h1 X Marks the Essential
-	h2 Beating Heart of Jean Paul Sartre
+	h2 Iron Heart of Jean Paul Sartre
 	h3 The Stranger Than Fiction
 	.d-flex.mt-3
 		b-button.mr-2(size='lg') Imprint
