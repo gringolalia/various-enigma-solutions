@@ -7,19 +7,29 @@ import Arcano from './views/Arcano.vue'
 import Brenha from './views/Brenha.vue'
 import Charada from './views/Arcano.vue'
 import Cifra from './views/Cifra.vue'
+import Enigma from './views/Enigma.vue'
 import Esfinge from './views/Esfinge.vue'
 import Grifo from './views/Grifo.vue'
 import Incognita from './views/Incognita.vue'
 import Parabola from './views/Parabola.vue'
+import Perplexidade from './views/Perplexity.vue'
 
 // Second Set of Pages
 import Empiricism from './views/schools/Empiricism.vue'
 import Existential from './views/schools/Existential.vue'
-
-
-
+import Hegelian from './views/schools/Hegel.vue'
+import Idealism from './views/schools/Ideal.vue'
+import Kant from './views/schools/Kant.vue'
+import Marx from './views/schools/Marx.vue'
+import Positivism from './views/schools/Positivism.vue'
+import Pragmaticism from './views/schools/Pragmaticism.vue'
+import Realism from './views/schools/Realism.vue'
+import Phenomenology from './views/schools/Phenomenology.vue'
+import Platonism from './views/schools/Platonism.vue'
 
 Vue.use(Router)
+
+//  And Now We Route Our Troute
 
 export default new Router({
   mode: 'history',
@@ -65,6 +75,11 @@ export default new Router({
       component: Esfinge
     },
     {
+      path: '/enigma',
+      name: 'enigma',
+      component: Enigma
+    },
+    {
       path: '/grifo',
       name: 'grifo',
       component: Grifo
@@ -80,6 +95,11 @@ export default new Router({
       component: Parabola
     },
     {
+      path: '/perplexidade',
+      name: 'perplexidade',
+      component: Perplexidade
+    },
+    {
       path: '/empiricism',
       name: 'empiricism',
       component: Empiricism
@@ -88,6 +108,36 @@ export default new Router({
       path: '/existential',
       name: 'existential',
       component: Existential
+    },
+    {
+      path: '/hegelian',
+      name: 'hegelian',
+      component: Hegelian
+    },
+    {
+      path: '/idealism',
+      name: 'Idealism',
+      component: Idealism
+    },
+    {
+      path: '/kant',
+      name: 'Kantian',
+      component: Kant
+    },
+    {
+      path: '/marxism',
+      name: 'Marxism',
+      component: Marx
+    },
+    {
+      path: '/phenomenology',
+      name: 'Phenomenology',
+      component: Phenomenology
+    },
+    {
+      path: '/pragmaticism',
+      name: 'Pragmaticism',
+      component: Pragmaticism
     },
     {
       path: '/about',

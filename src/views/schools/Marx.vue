@@ -3,7 +3,7 @@
 	img(alt='Vue logo', src='../../../public/img/icons/hammer-sickle.svg' width="200px")
 	h1 Karlo the Marx Brother
 	h2 Hectic Material Dialectic
-	h3 Religion: Crystal Meth of the Masses
+	h3 Religion &mdash; Crystal Meth of the Masses
 	.d-flex.mt-3
 		b-button.mr-2(size='lg') Imprint
 		b-button(large variant='dark' size='lg') Offprint

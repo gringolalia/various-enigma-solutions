@@ -17,39 +17,39 @@
 							i.material-icons.mr-2 keyboard_arrow_down
 							| Scholasticisms au Gogo
 
-						b-dropdown-item(to='/empiricism')
+						b-dropdown-item(to='empiricism')
 							i.fas.fa-balance-scale.fa-lg.mr-3
 							| Empiricism
 
-						b-dropdown-item(href='/existential')
+						b-dropdown-item(href='existential')
 							i.material-icons.md-24.mr-3 waves
 							| Existentialism
 
-						b-dropdown-item(href='/hegelian')
+						b-dropdown-item(href='hegelian')
 							i.fas.fa-chess-knight.fa-lg.mr-3
 							| Hegelianism
 
-						b-dropdown-item(href='/idealist')
+						b-dropdown-item(href='idealist')
 							i.material-icons.mr-3 beach_access
 							|  Idealism
 
-						b-dropdown-item(href='/kantian')
+						b-dropdown-item(href='kantian')
 							i.material-icons.mr-3 my_location
 							| Kantianism
 
-						b-dropdown-item(href='/marxist')
+						b-dropdown-item(href='marxism')
 							i.material-icons.mr-3 directions_bike
 							| Marxism
 
-						b-dropdown-item(href='/phenomenology')
+						b-dropdown-item(href='phenomenology')
 							i.material-icons.mr-3 directions_run
 							| Phenomenology
 
-						b-dropdown-item(href='/positivism')
+						b-dropdown-item(href='positivism')
 							i.fas.fa-sun.fa-lg.mr-3
 							| Positivism
 
-						b-dropdown-item(href='/pragmaticism')
+						b-dropdown-item(href='pragmaticism')
 							i.fas.fa-strikethrough.fa-lg.mr-3
 							| Pragmaticism
 

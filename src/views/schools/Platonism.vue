@@ -1,12 +1,12 @@
 <template lang="pug">
 .home
-	img(alt='Vue logo', src='../../public/img/icons/hammer-sickle.svg' width="200px")
-	h1 Arcanos Palacianos
-	h2 Riddler, ou, Charada
-	h3 Bat Macumba Oba
+	img(alt='Vue logo', src='../../../public/img/icons/hammer-sickle.svg' width="200px")
+	h1 Pragmatic Praxis
+	h2 Four Incapacities
+	h3 What Is Worse Than Peirce?
 	.d-flex.mt-3
-		b-button.mr-2(size='lg') Imprensa
-		b-button(large variant='dark' size='lg') Impressionante
+		b-button.mr-2(size='lg') Imprint
+		b-button(large variant='dark' size='lg') Offprint
 </template>
 
 <script>
